@@ -12,6 +12,3 @@ header_pages:
   - development.md
   - security.md
   - troubleshooting.md
-
-exclude:
-  - ru/

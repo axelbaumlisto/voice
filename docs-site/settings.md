@@ -32,7 +32,7 @@ _Settings page with provider and recording controls._
 - Auto-type (`auto_type`): enabled by default. When enabled, text is typed directly; on supported platforms a failed auto-type can fall back to clipboard paste.
 - Clipboard paste mode: when auto-type is disabled, the app saves the clipboard, copies/pastes the transcription with configured paste shortcuts, and then attempts to restore the previous clipboard.
 - Auto-enter (`auto_enter`), append trailing space (`append_trailing_space`), translate to English (`translate_to_english`), auto-submit key, audio feedback, typing delay, notifications, and paste shortcuts.
-- Paste shortcut choices are `Ctrl+Shift+V`, `Ctrl+V`, and `Shift+Insert`.
+- Paste shortcut choices are `Ctrl+Shift+V`, `Ctrl+V`, and `Shift+Insert`. The setting is Linux-oriented: Linux honors the configured list, macOS always pastes with Cmd+V, and Windows always pastes with Ctrl+V.
 
 ## Overlay
 

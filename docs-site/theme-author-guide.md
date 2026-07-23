@@ -29,8 +29,8 @@ my_theme/
   "description": "A pulsing circle that grows with audio level",
   "api_version": 1,
   "entry": "theme.js",
-  "overlay_width": 172,
-  "overlay_height": 36,
+  "overlay_width": 320,
+  "overlay_height": 108,
   "params": { "color": "#00ff88" }
 }
 ```

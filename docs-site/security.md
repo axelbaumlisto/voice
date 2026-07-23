@@ -9,7 +9,9 @@ Do not commit API keys, access tokens, local SQLite databases, provider definiti
 
 Runtime credentials must stay local and should be configured through the app settings UI / local config storage. The application does not automatically load API keys from environment variables.
 
-Local runtime data includes `config.db`, `history.db`, `dictionary.txt`, `corrections.db`, `providers.db`, `prompts.db`, `failed_audio/`, `debug/`, `logs/`, and `themes/` under the platform config directory.
+Local runtime data includes `config.db`, `history.db`, `dictionary.txt`, `corrections.db`, `providers.db`, `prompts.db`, `failed_audio/`, `debug/`, `logs/`, and `themes/` under the platform config directory (for example `~/.config/voxis/` on Linux).
+
+Debug mode (`debug=true`) writes WAV/JSONL files under `debug/` without automatic cleanup, which can grow disk use or retain sensitive recordings. Leave debug off for normal use.
 
 ## Theme code trust boundary
 
